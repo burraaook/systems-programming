@@ -82,7 +82,7 @@ typedef struct response_t
     size_t file_size;
 } response_t;
 
-char dir_name[MAX_FILENAME_LEN];
+extern char dir_name[MAX_FILENAME_LEN];
 
 /*
  * custom error exit function which prints the error message and exits

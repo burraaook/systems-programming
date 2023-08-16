@@ -2,8 +2,6 @@
 
 thread_pool_t thread_pool;
 
-char dir_name[MAX_FILENAME_LEN];
-
 int thread_pool_init (size_t num_threads)
 {
     size_t i;
