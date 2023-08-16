@@ -1,4 +1,4 @@
-# General  
+# Concurrent File Access System Using Processes
 - A file Server that enables multiple clients to connect, access and modify the contents of files in a specific directory.
 
 Compilation
