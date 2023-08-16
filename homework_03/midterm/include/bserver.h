@@ -4,7 +4,7 @@
 #include "mycommon.h"
 #include <signal.h>
 
-sig_atomic_t signal_occured;
+extern sig_atomic_t signal_occured;
 
 typedef struct cli_queue_t
 {
